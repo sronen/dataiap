@@ -1,0 +1,85 @@
+Shahars-MacBook-Pro:day5 shahar$ python mr_wordcount.py  --num-ec2-instances=20 --python-archive package.tar.gz -r emr -o 's3://dataiap-student-42-testbucket/output' --no-output 's3://dataiap-enron-json/*.json'
+no configs found; falling back on auto-configuration
+using existing scratch bucket mrjob-5ea467a870ec227d
+using s3://mrjob-5ea467a870ec227d/tmp/ as our scratch dir on S3
+creating tmp directory /var/folders/55/kb7_0cc56_ld8wkhp4ggxk1m0000gn/T/mr_wordcount.shahar.20120117.185506.908680
+writing master bootstrap script to /var/folders/55/kb7_0cc56_ld8wkhp4ggxk1m0000gn/T/mr_wordcount.shahar.20120117.185506.908680/b.py
+Copying non-input files into s3://mrjob-5ea467a870ec227d/tmp/mr_wordcount.shahar.20120117.185506.908680/files/
+Waiting 5.0s for S3 eventual consistency
+Creating Elastic MapReduce job flow
+Job flow created with ID: j-2B4JKXBWERKVT
+Job launched 30.6s ago, status STARTING: Starting instances
+Job launched 60.8s ago, status STARTING: Starting instances
+Job launched 91.0s ago, status STARTING: Starting instances
+Job launched 121.2s ago, status STARTING: Starting instances
+Job launched 151.3s ago, status STARTING: Starting instances
+Job launched 181.5s ago, status STARTING: Starting instances
+Job launched 211.7s ago, status STARTING: Starting instances
+Job launched 242.2s ago, status STARTING: Configuring cluster software
+Job launched 272.4s ago, status BOOTSTRAPPING: Running bootstrap actions
+Job launched 302.5s ago, status BOOTSTRAPPING: Running bootstrap actions
+Job launched 332.7s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 362.9s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 393.0s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 423.2s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 453.7s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 484.2s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 514.3s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 544.8s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 575.4s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 605.9s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 636.0s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 666.5s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 696.7s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 726.8s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 757.0s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 787.2s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 817.4s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 847.6s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 877.8s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 908.0s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 938.2s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 968.3s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 998.6s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1028.8s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1058.9s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1089.1s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1119.3s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1149.5s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1179.7s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1209.9s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1240.4s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1271.1s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1301.4s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job launched 1331.9s ago, status RUNNING: Running step (mr_wordcount.shahar.20120117.185506.908680: Step 1 of 1)
+Job completed.
+Running time was 1029.0s (not counting time spent waiting for the EC2 instances)
+ec2_key_pair_file not specified, going to S3
+Fetching counters from S3...
+Waiting 5.0s for S3 eventual consistency
+Counters from step 1:
+  FileSystemCounters:
+    FILE_BYTES_READ: 197488384
+    FILE_BYTES_WRITTEN: 58258621
+    S3_BYTES_READ: 1405888038
+    S3_BYTES_WRITTEN: 8354556
+  Job Counters :
+    Launched map tasks: 169
+    Launched reduce tasks: 33
+    Rack-local map tasks: 169
+  Map-Reduce Framework:
+    Combine input records: 0
+    Combine output records: 0
+    Map input bytes: 1405888038
+    Map input records: 516893
+    Map output bytes: 585440070
+    Map output records: 49931418
+    Reduce input groups: 232743
+    Reduce input records: 49931418
+    Reduce output records: 232743
+    Reduce shuffle bytes: 26548230
+    Spilled Records: 134445547
+removing tmp directory /var/folders/55/kb7_0cc56_ld8wkhp4ggxk1m0000gn/T/mr_wordcount.shahar.20120117.185506.908680
+Removing all files in s3://mrjob-5ea467a870ec227d/tmp/mr_wordcount.shahar.20120117.185506.908680/
+Removing all files in s3://mrjob-5ea467a870ec227d/tmp/logs/j-2B4JKXBWERKVT/
+Terminating job flow: j-2B4JKXBWERKVT

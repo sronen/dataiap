@@ -1,0 +1,28 @@
+ENDED UP INSTALL ENTHOUGHT PYTHON INSTEAD OF INSTALLING THE COMPONENTS BELOW SEPARATELY.
+NUMPY PASSES ALL UNIT TESTS, SCIPY FAILS ON A FEW (BUT DOESN'T CRASH).
+
+dataiap site:
+http://dataiap.github.com/dataiap/day0.html
+
+- Install Python 2.7.2 from official site.
+- Install GCC 4.2: http://r.research.att.com/tools/gcc-42-5666.3-darwin11.pkg
+- Install GFortran on top of it (although the AT&T claims the Darwin package above contains GFortran): http://r.research.att.com/tools/gfortran-lion-5666-3.pkg
+- Install modules as instructed on http://dataiap.github.com/dataiap/day0.html
+	-- Note: to unit test scipy/numpy, first install nose: sudo pip install nose
+	
+Install numpy/scipy:
+- Experienced unittest errors (numpy) or crashes (scipy) when installed using pip.
+
+Install manually:
+- Download easy_install: http://pypi.python.org/pypi/setuptools#downloads
+- Install it: sh setuptools-0.6c11-py2.7.egg 
+- Make following settings:
+ $ export CC=gcc-4.2
+ $ export CXX=g++-4.2
+ $ export FFLAGS=-ff2c
+- easy_install numscons: Doesn't work...
+
+
+Guide for manual installation:
+(didn't do the trick for me)
+http://permalink.gmane.org/gmane.comp.python.scientific.devel/15349
